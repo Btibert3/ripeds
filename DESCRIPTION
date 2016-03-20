@@ -3,13 +3,15 @@ Title: A data package for the NCES IPEDS set of data files
 Version: 0.0.0.1
 Authors@R: person("Brock", "Tibert", email = "btibert3@gmail.com", role = c("aut", "cre"))
 Description: NCES IPEDS database from 2002 to present.
-Depends: R (>= 3.2.3)
-Imports: 
- dplyr,
- tidyr,
- stringr,
- ggplot2,
- lubridate,
- readr
+Depends:
+    R (>= 3.2.3)
+Imports:
+    dplyr,
+    tidyr,
+    stringr,
+    ggplot2,
+    lubridate,
+    readr
 License: CC0
 LazyData: true
+RoxygenNote: 5.0.1.9000

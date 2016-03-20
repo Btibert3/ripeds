@@ -21,7 +21,7 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 
 ## To do
 
-- [ ] Add documentation files for the datasets and package
+- [ ] Improve documentation files for the datasets and package
 - [ ] Add data before 2002
 
 ## Observations  
