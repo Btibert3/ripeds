@@ -7,17 +7,21 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 
 ## Notes  
 
-I am starting with years 2002 to present.
+- I am starting with years 2002 to present.
+- When the data are collected, and a revised file is included, I will always use that file, not the original data reported.
 
 
 ## Data Collected
 
 - [x] HD: Directory Info
-- [ ] 
+- [x] IC and ADM: Institutional Characteristics and Admissions data  
+- [ ] SFA: Student Financial Aid  
+- [x] EF_C: Fall Enrollment - Residence and Migration
 
 
 ## To do
 
+- [ ] Add documentation files for the datasets and package
 - [ ] Add data before 2002
 
 ## Observations  
