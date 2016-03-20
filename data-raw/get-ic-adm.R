@@ -92,12 +92,22 @@ for (YEAR in ADM_YEARS) {
 }
 
 
-
-
 ## cleanup the directory
 FILES_CSV = list.files(pattern = ".csv")
 FILES_ZIP = list.files(pattern = ".zip")
 file.remove(c(FILES_CSV, FILES_ZIP))
+
+## add the fall year reported from column 
+## in 2014, appdate appears to not have been asked, so assume missing data =  survey year
+ic$app_year = NA
+ROWS = which(ic$appdate == 2)
+ic$app_year[ROWS] = ic$survey_year[ROWS]
+ROWS = which(ic$appdate == 1)
+ic$app_year[ROWS] = as.character(as.numeric(ic$survey_year[ROWS])-1)
+ROWS = which(ic$survey_year >= '2014')
+ic$app_year[ROWS] = ic$survey_year[ROWS]
+rm(ROWS)
+# with(ic, table(survey_year, app_year))
 
 ## save the data
 save(ic, file="../data/ic.rda")

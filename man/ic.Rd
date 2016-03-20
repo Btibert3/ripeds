@@ -4,7 +4,12 @@
 \name{ic}
 \alias{ic}
 \title{Institutional Characteristics and Admissions Data from IPEDS}
-\format{Data frame with columns}
+\format{Data frame with columns
+\describe{
+\item{survey_year}{The year of the survey}
+\item{app_year}{The survey allows schools to report different years. 
+This column identifes the year reported for the survey; some schools report the same year twice.}
+}}
 \source{
 http://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
 }
