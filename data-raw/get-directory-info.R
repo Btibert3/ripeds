@@ -51,3 +51,6 @@ file.remove(c(FILES_CSV, FILES_ZIP))
 
 ## save the data
 save(hd, file="../data/hd.rda")
+
+## cleanup
+rm(list=ls())

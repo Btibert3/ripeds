@@ -20,6 +20,12 @@ I am starting with years 2002 to present.
 
 - [ ] Add data before 2002
 
+## Observations  
+
+- As of 3/20/2016, the survey files in 2014 for `IC` and `ADM` were broken out.  What's more, the file `ADM.csv` only includes 2236 schools but `IC2014.csv` includes 7531 schools.  
+
+
+
 ## Last Update
 
 
