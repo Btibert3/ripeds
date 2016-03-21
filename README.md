@@ -15,7 +15,7 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 
 - [x] HD: Directory Info
 - [x] IC and ADM: Institutional Characteristics and Admissions data  
-- [ ] SFA: Student Financial Aid  
+- [x] SFA: Student Financial Aid  
 - [x] EF_C: Fall Enrollment - Residence and Migration
 - [ ] Student Charges
 
@@ -27,7 +27,7 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 
 ## Observations  
 
-- As of 3/20/2016, the survey files in 2014 for `IC` and `ADM` were broken out.  What's more, the file `ADM.csv` only includes 2236 schools but `IC2014.csv` includes 7531 schools.  
+- As of 3/20/2016, the survey files in 2014 for `IC` and `ADM` were broken out.  What's more, the file `ADM.csv` only includes 2236 schools but `IC2014.csv` includes 7531 schools.  Finally, the variable `appdate` which flags the fall reporting year appears to be missing in 2014, so I am assuming that the survey year is based on the Fall reporting year.  
 
 
 
