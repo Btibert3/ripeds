@@ -17,6 +17,7 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 - [x] IC and ADM: Institutional Characteristics and Admissions data  
 - [ ] SFA: Student Financial Aid  
 - [x] EF_C: Fall Enrollment - Residence and Migration
+- [ ] Student Charges
 
 
 ## To do
