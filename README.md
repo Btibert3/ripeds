@@ -31,7 +31,14 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 
 
 
-## Last Update
 
 
 ## Issues/Questions/Feature Requests
+
+For data issues, or feature requests, feel free to submit an Issue to this repo.  I will do my best to monitor and stay on top of issues.
+
+
+
+## Last Update
+
+March 2016
