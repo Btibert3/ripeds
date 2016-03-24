@@ -1,12 +1,11 @@
-#' Student Charges for Academic-Year programs
+#' Student Charges for Academic Year programs.
 #'
 #' For more information, download a data dictionary from the IPEDS website.
 #' 
 #' Survey years 2002 - 2014.
-#' 
 #'
 #' @source http://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
 #' @format Data frame with columns
-#' @examples
-#'   charges_ay
-"charges_ay"
+#' @name charges_ay
+#' @usage charges_ay
+NULL

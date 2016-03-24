@@ -1,8 +1,6 @@
-#' ripeds: An R-data package for the NCES IPEDS survey data files.
-#'
-#' For more information, download a data dictionary from the IPEDS website.
+#' @title An R data-package for NCES IPEDS survey datasets
+#' @author Brock Tibert
+#' @name ripeds
+#' @description An R data-package to easily have complete survey files for quick analysis of IPEDS data.
 #' 
-#' Survey years 2002 - 2014.
-#'
-#' @source http://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
-
+NULL
