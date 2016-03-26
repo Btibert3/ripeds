@@ -18,12 +18,14 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 - [x] SFA: Student Financial Aid  
 - [x] EF_C: Fall Enrollment - Residence and Migration
 - [x] CHARGE_AY: Student Charges for Academic Programs
+- [x] EF_CP: Fall Enrollment - Major, r/e, level, etc.
 
 
 ## To do
 
 - [ ] Improve documentation files for the datasets and package
-- [ ] Add data before 2002
+- [ ] Add data before 2002 
+- [ ] Improve cleanup for `efcp`. Columns may have changed across years.
 
 ## Observations  
 
