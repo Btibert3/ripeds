@@ -56,7 +56,8 @@ FILES_ZIP = list.files(pattern = ".zip")
 file.remove(c(FILES_CSV, FILES_ZIP))
 
 ## save the data
-save(efc, file="../data/efcp.rda")
+efcp = efc
+save(efcp, file="../data/efcp.rda")
 
 ## cleanup
 rm(list=ls())
