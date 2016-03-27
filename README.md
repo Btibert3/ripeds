@@ -4,6 +4,47 @@ An R data-package for NCES IPEDS data. Instead of crawling the data manually or 
 
 ## Quick Start
 
+To install the package, simply use devtools.  This will take a second because there are a lot of data to grab.
+
+```
+devtools::install_github("btibert3/ripeds")
+```
+
+### A Sample Session
+
+1.  Load the packages
+
+```
+library(ripeds)
+library(dplyr)
+```
+
+2.  Load the institutional characterstics dataset
+
+```
+data(ic)
+```
+
+3.  What do we have?
+
+```
+dim(ic)
+```
+
+4.  Keep records where the # of applicants isn't missing
+
+```
+ic = filter(ic, applcn > 0 & app_year >= 2002)
+```
+
+5.  Plot the data by the app year, which is not always in the survey year.  
+
+```
+tbl_df(ic) %>% group_by(app_year) %>% summarise(apps = sum(applcn)) %>% plot(type="l", ylim=c(0,10000000))
+```
+
+Prior to 2014, it looks like some institutions had the choice on what application year they would report.  In 2014, it apepars that the option was removed.  As a result, there is a sizable drop in app volume in 2013.
+
 
 ## Notes  
 
