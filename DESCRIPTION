@@ -1,6 +1,6 @@
 Package: ripeds
 Title: A data package for the NCES IPEDS set of data files
-Version: 0.0.0.1
+Version: 0.0.0.2
 Authors@R: person("Brock", "Tibert", email = "btibert3@gmail.com", role = c("aut", "cre"))
 Description: NCES IPEDS database from 2002 to present.
 Depends:
@@ -11,7 +11,9 @@ Imports:
     stringr,
     ggplot2,
     lubridate,
-    readr
+    readr,
+    rvest,
+    httr
 License: CC0
 LazyData: true
 RoxygenNote: 5.0.1.9000
